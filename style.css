@@ -134,3 +134,28 @@ footer {
     background-color: #001d3d;
     padding: 10px;
 }
+
+.readLess{
+    display: none;
+}
+
+.readMore{
+    display: inline-block;
+    
+}
+.readMoreL{
+    color:blue ;
+    text-transform: capitalize;
+
+}
+.readLessL{
+    color:blue ;
+    text-transform: capitalize;
+}
+
+.readMoreL:hover{
+     cursor: pointer;
+}
+.readLessL:hover{
+    cursor: pointer;
+}
