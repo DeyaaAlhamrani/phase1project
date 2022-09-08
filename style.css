@@ -1,7 +1,7 @@
 body{
     width: 75%;
     margin: auto;
-    background-color: #f1f1f1;
+    background-color: white;
 
 }
    
@@ -34,7 +34,6 @@ body{
     padding: 10px;
     text-decoration: none;
     color: white;
-    
 }
 .navbar {
 
@@ -75,8 +74,21 @@ img{
     height: 100%;
     max-height: 300px
 }
+.main-container{
+background-color: #f8f8f8;
+
+}
 .blog{
-    border: 1px solid black;
+
+    padding: 5px;
+    margin-top: 3px;
+    
+}
+.blog p{
+    font-size: 30px;
+
+
+    
 }
 
 .main{
@@ -133,6 +145,8 @@ footer {
     color: white;
     background-color: #001d3d;
     padding: 10px;
+    padding-bottom: 30px;
+    font-size: large;
 }
 
 .readLess{
@@ -158,4 +172,84 @@ footer {
 }
 .readLessL:hover{
     cursor: pointer;
+}
+#upward{
+    width: 3em;
+    height: 3em;
+    position: fixed;
+    bottom: 1em;
+    right: 14vw;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:900px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    #upward{
+        right: 2vw;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    #upward{
+        right: 2vw;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+    }
+}
+@media only screen and (max-width:1500px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    #upward{
+        right: 2vw;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+    }
+}
+@media only screen and (max-width:2000px){
+
+    img{
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+    }
+}
+
+@media only screen and (min-width:2000px){
+    body{
+        width: 50%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        max-height: 700px;
+    }
+    #upward{
+        right: 26vw;
+    }
 }
